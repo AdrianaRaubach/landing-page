@@ -1,0 +1,30 @@
+.menu .title-agencia{
+    font-size: 25px;
+    transition: 0.5s;
+
+}
+.menu .title-agencia a:hover{
+    color: #FBDD6B;
+}
+.menu{
+    display: flex;
+    justify-content: space-between;
+    margin:  20px;
+    align-items: center;
+}
+.menu-list{
+    display: flex;
+    flex-direction: row;
+}
+.menu-list li a{
+    padding: 15px 30px;
+    margin: 5px;
+    font-weight: 700;
+    font-size: 20px;
+    border-radius: 50px;
+    transition: 0.5s;
+}
+.menu .menu-list li a:hover{
+    background-color: #FBDD6B;
+    color: #fff;
+}
